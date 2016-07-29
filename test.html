@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>input</title>
+        <script type="text/javascript" src="./angular.js"></script>
+    </head>
+    <body ng-app="">
+	<p>我的第一个表达式: 5 + 5 =  {{ 5 + 5 }}</p>
+
+        <div>
+          <p>在输入框中尝试输入：</p>
+          <p>姓名：<input type="text" ng-model="name"></p>
+          hello <p ng-bind="name"></p>
+        </div>
+
+	
+        Your name: <input type="text" ng-model="yourname" placeholder="World">
+        <hr>
+        Hello {{yourname || 'World'}}!
+       
+    </body>
+</html>
+
