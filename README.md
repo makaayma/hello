@@ -1,1 +1,5 @@
-下载工程，在浏览器打开test.html
+各种技术框架的应用案例：
+1、MEAN
+angularJS
+2、tensorFlow
+3、Spark
